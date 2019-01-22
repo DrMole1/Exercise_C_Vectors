@@ -62,3 +62,19 @@ extern int scaleVecteur2(const tVecteur vecteur1, const tVecteur vecteur2)
     nScaleTemp = nCoordX + nCoordY;
     return nScaleTemp;
 }
+
+
+//implémentation
+//========================
+//BUT : On fait le produit vectoriel de 2 vecteurs
+//ENTREES : Les dits vecteurs
+//SORTIE : On affiche le produit scalaire
+//========================
+extern int prodVecteur(const tVecteur vecteur1, const tVecteur vecteur2)
+{
+    int nCoordX = 0, nCoordY = 0, nProdTemp;
+    nCoordX = vecteur1.nCoordA*vecteur2.nCoordB;
+    nCoordY = vecteur1.nCoordB*vecteur2.nCoordA;
+    nProdTemp = nCoordX - nCoordY;
+    return nProdTemp;
+}

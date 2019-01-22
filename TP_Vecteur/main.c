@@ -3,6 +3,14 @@
 #include "vecteur.h"
 #include "function.h"
 
+
+
+//implémentation
+//========================
+//BUT : L'utilisateur peut choisir plusieurs opérations sur les vecteurs
+//ENTREES : L'environnement
+//SORTIE : L'environnement
+//========================
 int main()
 {
     int nChoix=0;
@@ -42,7 +50,9 @@ int main()
             break;
         case 5 :
             printf("Produit vectoriel 2 vecteurs :\n");
-            printf("Manque de temps : a finir.");
+            setVecteur(&MonVecteur1);
+            setVecteur(&MonVecteur2);
+            printf("Le produit vectoriel est de %d",prodVecteur(MonVecteur1,MonVecteur2));
             break;
         default :
             printf("Procédure mauvaise");
