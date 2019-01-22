@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1548150221 source:c:\users\basti\desktop\algo\c\tp_vecteur\main.c
+	<stdio.h>
+	<stdlib.h>
+	"vecteur.h"
+	"function.h"
+
+1548144940 c:\users\basti\desktop\algo\c\tp_vecteur\point.h
+
+1548148772 c:\users\basti\desktop\algo\c\tp_vecteur\vecteur.h
+
+1548148772 source:c:\users\basti\desktop\algo\c\tp_vecteur\point.c
+	<stdio.h>
+	<stdlib.h>
+	"vecteur.h"
+
+1548149475 source:c:\users\basti\desktop\algo\c\tp_vecteur\function.c
+	<stdio.h>
+	<stdlib.h>
+	"vecteur.h"
+	"function.h"
+
+1548149573 c:\users\basti\desktop\algo\c\tp_vecteur\function.h
+	"vecteur.h"
+
